@@ -1,0 +1,12 @@
+#配置数据库相关信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ssm_db?serverTimezone=UTC
+    username: root
+    password: root
+#设置mp的配置
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb1_
